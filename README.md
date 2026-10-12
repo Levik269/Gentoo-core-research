@@ -7,7 +7,7 @@ Hardware: Intel Core i5-13500HX (Raptor Lake, 14C/20T), DDR5 16GB · dual-boot A
 
 Three kernels, nine kernel-level micro-benchmarks, two power regimes.
 
-![turbo flips the verdict](figures/fig3_turbo_flips.png)
+![turbo flips the verdict](fig1_controlled_3way.png)
 
 ---
 
