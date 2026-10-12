@@ -172,11 +172,3 @@ python3 tools/analyze.py            # writes analysis/
 python3 tools/plot.py               # writes figures/
 ```
 
-## 9. What I'd do next
-
-- Hold gcc constant (rebuild Arch's kernel under gcc 15, or all three under 16) to
-  separate compiler from kernel.
-- Add a `zen`-debloated build (drop tracing/debug from the config) to test whether
-  the `sched_switch`/`futex` cost is `ZEN_INTERACTIVE` by design or removable blot.
-- Pin IRQs and isolate CPUs for the latency tests; add `schbench`/`cyclictest` for a
-  proper tail-latency view, where a desktop-tuned kernel should actually shine.
