@@ -1,0 +1,10 @@
+test,unit,higher_better,arch_turbo_gain_%,zen_turbo_gain_%
+sched_context,bogo_ops_s,yes,51.9,24.3
+sched_switch,bogo_ops_s,yes,40.2,13.0
+ipc_pipe,bogo_ops_s,yes,38.5,4.9
+futex,bogo_ops_s,yes,57.9,40.5
+syscall,bogo_ops_s,yes,-32.0,-31.9
+memcpy,bogo_ops_s,yes,41.0,13.9
+sysbench_cpu,events_s,yes,61.8,34.7
+sysbench_threads,avg_latency_ms,no,37.1,-9.4
+sysbench_memory,MiB_s,yes,75.3,73.4

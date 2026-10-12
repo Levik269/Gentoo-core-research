@@ -1,0 +1,10 @@
+test,unit,higher_better,6.18,zen_7.2.7,arch_7.0.3,winner,margin_%_over_2nd
+sched_context,bogo_ops_s,yes,52782.37,52673.51,59865.88,Arch 7.0.3,13.4
+sched_switch,bogo_ops_s,yes,5197917.16,4466559.94,4588882.45,6.18 vanilla,13.3
+ipc_pipe,bogo_ops_s,yes,10856546.27,14374798.84,9488391.37,zen 7.2.7,32.4
+futex,bogo_ops_s,yes,1061703.28,843918.69,989263.29,6.18 vanilla,7.3
+syscall,bogo_ops_s,yes,958.63,977.12,1000.84,Arch 7.0.3,2.4
+memcpy,bogo_ops_s,yes,3058.89,3058.02,2862.82,6.18 vanilla,0.0
+sysbench_cpu,events_s,yes,9899.76,9885.80,9783.27,6.18 vanilla,0.1
+sysbench_threads,avg_latency_ms,no,2.35,2.33,2.56,zen 7.2.7,0.9
+sysbench_memory,MiB_s,yes,79415.01,76041.88,75754.89,6.18 vanilla,4.4
