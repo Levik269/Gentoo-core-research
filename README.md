@@ -202,17 +202,7 @@ configs/                the three kernel .config files
 analysis/               computed summary.md + derived CSVs
 figures/                fig1 controlled 3-way, fig2 turbo effect, fig3 flips
 ```
-
-## 10. What I'd do next
-
-- Hold gcc constant (rebuild Arch's kernel under gcc 15, or all three under 16) to
-  separate compiler from kernel.
-- Add a `zen`-debloated build (drop tracing/debug from the config) to test whether
-  the `sched_switch`/`futex` cost is `ZEN_INTERACTIVE` by design or removable blot.
-- Pin IRQs and isolate CPUs for the latency tests; add `schbench`/`cyclictest` for a
-  proper tail-latency view, where a desktop-tuned kernel should actually shine.
-
 ---
 
-*Benchmarks and analysis by Leo Skachkov. Tooling and write-up assisted. Data is
+*Tooling and write-up assisted. Data is
 raw and included; corrections welcome.*
